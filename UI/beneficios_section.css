@@ -1,0 +1,36 @@
+.beneficios {
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.title_beneficio{
+    color: var(--verde-escuro);
+    font-size: var(--font-titulo-mobile);
+    text-align: center;
+    padding: 5px;
+    font-weight: var(--peso-titulo);
+}
+
+.lista_beneficios {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.item_beneficio {
+    padding: 20px;
+    
+    background-color: var(--branco);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px 2px var(--sombra);
+    align-items: center;
+    text-align: center;
+}
