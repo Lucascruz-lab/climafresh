@@ -1,0 +1,23 @@
+:root {
+    --verde-escuro : #1E6F5C;
+    --verde-claro: #2B886F;
+    --verde-agua: #A8F0D2;
+    --branco: #ffffff;
+    --preto: #000000;
+    --cinza: #4a4a4a;
+    --sombra: rgba(0,0,0,0.4); 
+
+    --titulo: 'Poppins', sans-serif;
+    --texto: 'Inter', sans-serif;
+
+    --peso-titulo: 800;
+    --peso-medio: 600;
+    --peso-regular: 300;
+
+    --font-titulo: 48px;
+    --font-sub:44px;
+    --font-subMenor:40px;
+    --font-media: 36px;
+    --font-regular:24px;
+}
+
