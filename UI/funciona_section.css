@@ -1,0 +1,49 @@
+.explicacao {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0 20px 0 20px;
+}
+
+.title_explicacao {
+    color: var(--verde-escuro);
+    font-size: var(--font-titulo-mobile);
+    font-weight: var(--peso-titulo);
+    padding: 5px;
+    text-align: center;
+
+}
+
+.lista_explicacao {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin: 20px 0 20px 0;
+}
+
+.item_explicacao {
+    padding: 20px;
+    
+    background-color: var(--branco);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px 2px var(--sombra);
+    align-items: center;
+    text-align: center;
+}
+
+.btn_cta {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+    padding: 10px;
+    border-radius: 50px;
+    transition: background-color 2s ease;
+}
+
+.btn_cta:hover {
+    background-color: var(--verde-claro);
+}
