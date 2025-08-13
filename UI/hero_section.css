@@ -5,7 +5,8 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    margin-bottom: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(var(--sombra));
 }
 
 .title_hero {
@@ -54,9 +55,11 @@
     object-fit: cover; /* ajusta sem distorcer */
     display: block;
     align-items: center;
+    border-radius: 30px;
 }
 
 .img_hero img {
     width: 100%;
-    height: 80%;
+    height: 75%;
+    border-radius: 12px;
 }
