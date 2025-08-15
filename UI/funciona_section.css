@@ -40,8 +40,10 @@
 .btn_cta {
     background-color: var(--verde-escuro);
     color: var(--branco);
+    font-weight: 700;
     padding: 10px;
     border-radius: 50px;
+    box-shadow: 0 4px 8px var(--sombra);
     transition: background-color 2s ease;
 }
 
