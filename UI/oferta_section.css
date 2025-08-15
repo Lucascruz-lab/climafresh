@@ -1,0 +1,24 @@
+.oferta {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--verde-escuro);
+}
+
+.title_oferta {
+    color: var(--branco);
+    font-family: var(--titulo);
+    font-size: var(--font-titulo-mobile);
+    font-weight: var(--peso-titulo);
+    text-align: center;
+    padding: 5px;
+}
+
+.legenda_oferta {
+    padding: 5px;
+    color: var(--branco);
+
+}

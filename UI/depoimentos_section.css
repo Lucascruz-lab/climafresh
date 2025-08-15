@@ -11,6 +11,7 @@
 
 .title_depoimentos {
     color: var(--verde-escuro);
+    font-family: var(--titulo);
     font-size: var(--font-titulo-mobile);
     text-align: center;
     padding: 5px;

@@ -10,6 +10,7 @@
 
 .title_explicacao {
     color: var(--verde-escuro);
+    font-family: var(--titulo);
     font-size: var(--font-titulo-mobile);
     font-weight: var(--peso-titulo);
     padding: 5px;
