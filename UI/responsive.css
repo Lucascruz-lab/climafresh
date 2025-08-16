@@ -22,7 +22,8 @@
         padding: 10px;
     }
 
-    .legenda_hero {
+    .legenda_hero,
+    .legenda_oferta {
         margin-bottom: 20px;
         font-size: var(--font-sub-tablet);
     }
@@ -30,6 +31,17 @@
     .btn_destaque {
         margin: 20px 0;
         padding: 15px;
+    }
+
+    .btn_cta,
+    .btn_grande {
+        width: 50%;
+        padding: 20px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-weight: var(--peso-medio);
+        font-size: var(--font-sub-tablet);
     }
 
     .prova_social {
@@ -42,21 +54,27 @@
         height: 100%;
 
     }
+    
+    .faq {
+        display: flex;
+        align-items: stretch;
+        padding: 30px;
+    }
 
     .beneficios,
     .depoimentos,
     .explicacao,
-    .oferta,
-    .faq {
+    .oferta{
         padding: 30px;
         display: flex;
         flex-wrap: wrap;
-        align-items: stretch;
+        align-items: center;
     }
 
     .lista_beneficios,
     .lista_depoimentos,
-    .lista_explicacao {
+    .lista_explicacao,
+    .cards_oferta {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -67,6 +85,7 @@
 
     .item_beneficio,
     .item_explicacao,
+    .item_oferta,
     .card {
         width: 300px;
         font-size: var(--font-regular);
