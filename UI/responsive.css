@@ -1,0 +1,76 @@
+@media(min-width: 768px) {
+    .hero {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        min-height: 50vh;
+
+    }
+
+    .container_hero {
+        gap: 20px;
+    }
+
+    .title_hero,
+    .title_beneficio,
+    .title_depoimentos,
+    .title_explicacao,
+    .title_oferta,
+    .title_faq {
+        font-size: var(--font-titulo-tablet);
+        padding: 10px;
+    }
+
+    .legenda_hero {
+        margin-bottom: 20px;
+        font-size: var(--font-sub-tablet);
+    }
+
+    .btn_destaque {
+        margin: 20px 0;
+        padding: 15px;
+    }
+
+    .prova_social {
+        margin-top: 10px;
+        font-size: var(--font-subMenor-tablet);
+    }
+
+    img {
+        width: 50%;
+        height: 100%;
+
+    }
+
+    .beneficios,
+    .depoimentos,
+    .explicacao,
+    .oferta,
+    .faq {
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+    .lista_beneficios,
+    .lista_depoimentos,
+    .lista_explicacao {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1 1 calc(50% - 1rem);
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    .item_beneficio,
+    .item_explicacao,
+    .card {
+        width: 300px;
+        font-size: var(--font-regular);
+        text-align: center;
+        justify-content: center;
+    }
+}
