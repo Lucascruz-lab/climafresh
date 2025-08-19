@@ -28,6 +28,7 @@ img {
 body {
   line-height: 1.2;
   font-family: var(--texto); /* você vai definir a fonte no global.css */
-  background-image: url(/assets/img/bg_mobile.png); /* também no global */
-  color: inherit;
+  background-image: url(/assets/img/bg_desktop.png); /* também no global */
+  background-repeat: no-repeat;
+  background-position: center;
 }
