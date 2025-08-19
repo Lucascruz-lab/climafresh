@@ -93,3 +93,39 @@
         justify-content: center;
     }
 }
+
+@media (min-width: 1024px) {
+
+    .hero {
+        min-height: 100vh;
+    }
+
+    .beneficio {
+    flex: 1 1 45%; /* força 2 colunas */
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .lista_beneficios {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        align-items: stretch;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .item_beneficio {
+        width: auto;
+        align-items: stretch;
+        height: auto;
+        padding: 20px;
+    }
+
+    .btn_cta,
+    .btn_grande {
+        width: 250px; 
+    }
+}

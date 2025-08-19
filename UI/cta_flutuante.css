@@ -10,12 +10,21 @@
     background-color: var(--verde-escuro);
     color: var(--branco);
     padding: 20px;
-    position: relative;
+    position: fixed;   /* faz o botão flutuar sobre a tela */
+    bottom: 20px;      /* distância do rodapé */
+    right: 20px;       /* distância da lateral */
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     border-radius: 12px;
+    z-index: 1000;     /* garante que fique acima de outros elementos */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 
 .cta_flutuante:hover {
     background-color: var(--verde-claro);
+    transform: scale(1.05);
+    transition: transform 0.2s ease, background-color 0.2s ease;
 }
