@@ -33,6 +33,14 @@
         padding: 15px;
     }
 
+    .logo {
+        padding: 20px;
+    }
+
+    .logo, .logo_img {
+        width: 400px;
+    }
+
     .btn_cta,
     .btn_grande {
         width: 50%;
@@ -62,6 +70,7 @@
     }
 
     .beneficios,
+    .cabecalho,
     .depoimentos,
     .explicacao,
     .oferta{
@@ -127,5 +136,20 @@
     .btn_cta,
     .btn_grande {
         width: 250px; 
+    }
+
+    .hamburguer {
+        display: none; /* some o ícone */
+    }
+
+    .menu {
+        position: static;
+        height: auto;
+        flex-direction: row;
+        background: none;
+        box-shadow: none;
+        width: auto;
+        gap: 30px;
+        right: 0;
     }
 }

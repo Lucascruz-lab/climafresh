@@ -1,0 +1,57 @@
+/* Header */
+.cabecalho {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+
+
+.logo {
+    padding: 10px;
+    width: 200px;
+}
+
+/* Ícone do menu */
+.hamburguer {
+  font-size: 2rem;
+  cursor: pointer;
+  display: block; /* aparece no mobile */
+}
+
+/* Menu padrão escondido */
+.menu {
+  position: fixed;
+  top: 60px; /* altura do header */
+  right: -100%;
+  width: 200px;
+  background: var(--branco);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  transition: right 0.3s ease-in-out;
+  box-shadow: -2px 0 6px rgba(0,0,0,0.1);
+}
+
+/* Links */
+.menu a {
+  text-decoration: none;
+  color: var(--verde-escuro);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Menu aberto */
+.menu.ativo {
+  right: 0;
+}
