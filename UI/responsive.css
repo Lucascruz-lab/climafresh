@@ -101,6 +101,12 @@
         text-align: center;
         justify-content: center;
     }
+
+    .bloco_footer_1,
+    .bloco_footer_2,
+    .bloco_footer_3 {
+        width: 400px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -151,5 +157,15 @@
         width: auto;
         gap: 30px;
         right: 0;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .legenda_footer {
+        text-align: left;
     }
 }
