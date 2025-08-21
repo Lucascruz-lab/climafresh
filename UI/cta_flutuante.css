@@ -1,9 +1,10 @@
 
 
 .cta_flutuante {
-    width: 300px;
+    width: 200px;
     background-color: var(--verde-escuro);
     color: var(--branco);
+    font-size: var(--font-subMenor-mobile);
     padding: 20px;
     position: fixed;   /* faz o botão flutuar sobre a tela */
     bottom: 20px;      /* distância do rodapé */
